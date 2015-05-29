@@ -1,0 +1,56 @@
+\hypertarget{struct_spisok}{}\section{Шаблон структуры Spisok$<$ T $>$}
+\label{struct_spisok}\index{Spisok$<$ T $>$@{Spisok$<$ T $>$}}
+
+
+Шаблоны (англ. template) — средство языка C++, предназначенное для кодирования обобщённых алгоритмов, без привязки к некоторым параметрам (например, типам данных, размерам буферов, значениям по умолчанию).  
+
+
+Граф наследования\+:Spisok$<$ T $>$\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{struct_spisok}
+\end{center}
+\end{figure}
+\subsection*{Открытые атрибуты}
+\begin{DoxyCompactItemize}
+\item 
+T \hyperlink{struct_spisok_aa25d518a0e44cdd1c882051db5af9e04}{data}
+\begin{DoxyCompactList}\small\item\em data -\/ информационное поле \end{DoxyCompactList}\item 
+\hyperlink{struct_spisok}{Spisok} $\ast$ \hyperlink{struct_spisok_a55a474ff28ffad84e395d7a481717832}{next}
+\begin{DoxyCompactList}\small\item\em $\ast$next -\/ указатель на следующий элемент \end{DoxyCompactList}\item 
+\hyperlink{struct_spisok}{Spisok} $\ast$ \hyperlink{struct_spisok_a5898c0910b43a9c6e55224bb5fd89416}{pred}
+\begin{DoxyCompactList}\small\item\em $\ast$pred -\/ указатель на предыдуший элемент \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Подробное описание}
+\subsubsection*{template$<$class T$>$struct Spisok$<$ T $>$}
+
+Шаблоны (англ. template) — средство языка C++, предназначенное для кодирования обобщённых алгоритмов, без привязки к некоторым параметрам (например, типам данных, размерам буферов, значениям по умолчанию). 
+
+\subsection{Данные класса}
+\hypertarget{struct_spisok_aa25d518a0e44cdd1c882051db5af9e04}{}\index{Spisok@{Spisok}!data@{data}}
+\index{data@{data}!Spisok@{Spisok}}
+\subsubsection[{data}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ T {\bf Spisok}$<$ T $>$\+::data}\label{struct_spisok_aa25d518a0e44cdd1c882051db5af9e04}
+
+
+data -\/ информационное поле 
+
+\hypertarget{struct_spisok_a55a474ff28ffad84e395d7a481717832}{}\index{Spisok@{Spisok}!next@{next}}
+\index{next@{next}!Spisok@{Spisok}}
+\subsubsection[{next}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf Spisok}$\ast$ {\bf Spisok}$<$ T $>$\+::next}\label{struct_spisok_a55a474ff28ffad84e395d7a481717832}
+
+
+$\ast$next -\/ указатель на следующий элемент 
+
+\hypertarget{struct_spisok_a5898c0910b43a9c6e55224bb5fd89416}{}\index{Spisok@{Spisok}!pred@{pred}}
+\index{pred@{pred}!Spisok@{Spisok}}
+\subsubsection[{pred}]{\setlength{\rightskip}{0pt plus 5cm}template$<$class T $>$ {\bf Spisok}$\ast$ {\bf Spisok}$<$ T $>$\+::pred}\label{struct_spisok_a5898c0910b43a9c6e55224bb5fd89416}
+
+
+$\ast$pred -\/ указатель на предыдуший элемент 
+
+
+
+Объявления и описания членов структуры находятся в файле\+:\begin{DoxyCompactItemize}
+\item 
+T\+I\+M\+P\+Shablon/\hyperlink{1212_8cpp}{1212.\+cpp}\end{DoxyCompactItemize}
